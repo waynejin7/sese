@@ -2,7 +2,7 @@
     "firstRun": false,
     "currentVersion": "1.12.11",
     "username": "X",
-    "active_character": "林小雨.png",
+    "active_character": "林雨涵.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "Amk_Hagemi_3.7.4-664F0",
     "user_avatar": "user-default.png",
@@ -540,7 +540,8 @@
             }
         ],
         "character_allowed_regex": [
-            "我和她们的金蹴物语改.png"
+            "我和她们的金蹴物语改.png",
+            "林雨涵.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -839,7 +840,7 @@
         "min_p_openai": 0,
         "top_a_openai": 1,
         "repetition_penalty_openai": 1,
-        "stream_openai": true,
+        "stream_openai": false,
         "openai_max_context": 80000,
         "openai_max_tokens": 32768,
         "wrap_in_quotes": false,

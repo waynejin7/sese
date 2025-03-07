@@ -452,7 +452,93 @@
             "profiles": []
         },
         "dice": {},
-        "regex": [],
+        "regex": [
+            {
+                "id": "05403ac9-0630-4dd8-be0b-3cd62f0907f8",
+                "scriptName": "【Lyean】[不发送]5楼以上除摘要外文本",
+                "findRegex": "/([\\s\\S]*?<details><summary>摘要</summary>|</details>[\\s\\S]*?$)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 5,
+                "maxDepth": null
+            },
+            {
+                "id": "d7622416-a070-4345-988a-a0f24c2d5a6f",
+                "scriptName": "【Lyean】[不发送]5楼以下摘要文本",
+                "findRegex": "/<details><summary>摘要</summary>([\\s\\S]*?)</details>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 5
+            },
+            {
+                "id": "b0526e6f-524c-49fd-a395-68bbf080c93c",
+                "scriptName": "【Lyean】[不发送]以前的用户输入",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 1,
+                "maxDepth": null
+            },
+            {
+                "id": "47d6f6b0-8de3-4270-a94f-934e46fee59e",
+                "scriptName": "【Lyean】移除大小思维链和免责声明",
+                "findRegex": "/(<disclaimer>.*?</disclaimer>)|(<!-- State(.*?)d(.*?) -->(\\n)?)|(<!-- consider: (.*?) -->(\\n)?)|(.*?</think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "090249ac-cc71-4909-b028-4004eabfba42",
+                "scriptName": "【Lyean】用户输入添加tag",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<inputs>\n$1\n</inputs>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
+            }
+        ],
         "character_allowed_regex": [
             "我和她们的金蹴物语改.png"
         ],

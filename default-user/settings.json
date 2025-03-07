@@ -979,7 +979,7 @@
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-chat",
         "custom_model": "",
-        "custom_url": "sk-linkeva-CjlynYbjbnr2r4",
+        "custom_url": "https://okapi.aicohere.org/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",

@@ -1,5 +1,5 @@
 {
-    "chat_completion_source": "claude",
+    "chat_completion_source": "custom",
     "openai_model": "claude-3-7-sonnet-20250219",
     "claude_model": "claude-3-5-sonnet-20240620",
     "windowai_model": "",
@@ -848,7 +848,7 @@
                 },
                 {
                     "identifier": "d13c9055-6b44-4782-82c7-c8b62f1db172",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "enhanceDefinitions",

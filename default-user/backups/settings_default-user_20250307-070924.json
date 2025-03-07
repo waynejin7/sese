@@ -7,7 +7,7 @@
     "user_avatar": "user-default.png",
     "amount_gen": 350,
     "max_context": 8192,
-    "main_api": "openai",
+    "main_api": "koboldhorde",
     "world_info_settings": {
         "world_info": {
             "globalSelect": []
@@ -358,11 +358,7 @@
         "external_media_allowed_overrides": [],
         "external_media_forbidden_overrides": [],
         "ui_mode": 1,
-        "auto_sort_tags": false,
-        "selectSamplers": {
-            "forceHidden": [],
-            "forceShown": []
-        }
+        "auto_sort_tags": false
     },
     "extension_settings": {
         "apiUrl": "http://localhost:5100",
@@ -670,8 +666,7 @@
     "tag_map": {
         "default_Seraphina.png": [
             "1345561466591"
-        ],
-        "undefined": []
+        ]
     },
     "nai_settings": {
         "temperature": 1.5,

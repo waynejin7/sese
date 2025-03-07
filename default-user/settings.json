@@ -3173,7 +3173,7 @@
         "openrouter_middleout": "on",
         "jailbreak_system": false,
         "reverse_proxy": "",
-        "chat_completion_source": "claude",
+        "chat_completion_source": "custom",
         "max_context_unlocked": true,
         "api_url_scale": "",
         "show_external_models": true,

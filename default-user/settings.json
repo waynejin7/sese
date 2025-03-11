@@ -2,7 +2,6 @@
     "firstRun": false,
     "currentVersion": "1.12.11",
     "username": "X",
-    "active_character": "我和她们的金蹴物语改.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "Amk_Hagemi_3.7.4-664F0",
     "user_avatar": "user-default.png",
@@ -539,10 +538,7 @@
                 "maxDepth": 1
             }
         ],
-        "character_allowed_regex": [
-            "我和她们的金蹴物语改.png",
-            "林雨涵.png"
-        ],
+        "character_allowed_regex": [],
         "tts": {
             "voiceMap": "",
             "ttsEnabled": false,
@@ -765,10 +761,7 @@
         "default_Seraphina.png": [
             "1345561466591"
         ],
-        "undefined": [],
-        "我和她们的金蹴物语改.png": [],
-        "林小雨.png": [],
-        "林雨涵.png": []
+        "undefined": []
     },
     "nai_settings": {
         "temperature": 1.5,

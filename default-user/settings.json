@@ -241,7 +241,7 @@
         "timer_enabled": false,
         "timestamps_enabled": true,
         "timestamp_model_icon": true,
-        "mesIDDisplay_enabled": false,
+        "mesIDDisplay_enabled": true,
         "hideChatAvatars_enabled": false,
         "max_context_unlocked": false,
         "message_token_count_enabled": false,
